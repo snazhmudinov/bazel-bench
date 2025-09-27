@@ -68,6 +68,7 @@ class BenchmarkConfig(object):
       'env_configure': None,
       'clean': True,
       'shutdown': True,
+      'patch_file': None,
   }
 
   def __init__(self, units, benchmark_project_commits=False):

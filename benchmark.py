@@ -494,6 +494,7 @@ flags.DEFINE_string('platform', None,
                      'script execution.'))
 flags.DEFINE_boolean('clean', True, 'Whether to invoke clean between runs/builds.')
 flags.DEFINE_boolean('shutdown', True, 'Whether to invoke shutdown between runs/builds.')
+flags.DEFINE_string("patch_file", None, 'Optional path to a patch file to apply before running the benchmark.')
 
 # Miscellaneous flags.
 flags.DEFINE_boolean('verbose', False,
